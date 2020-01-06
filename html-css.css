@@ -1,3 +1,6 @@
+a{
+  color: white;
+}
 h1{
   color: red
 }
@@ -32,5 +35,17 @@ li a:hover:not(.active) {
 }
 
 .active {
+  background-color: grey;
+}
+a:link {
   background-color: #4CAF50;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: black;
 }
