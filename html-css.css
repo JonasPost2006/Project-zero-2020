@@ -1,3 +1,7 @@
+#rennen_plaatje{
+  width: 60%;
+  padding-left: 20%
+}
 a{
   color: white;
 }
@@ -30,22 +34,64 @@ li a {
   text-decoration: none;
 }
 
-li a:hover:not(.active) {
+li .menu:hover:not(.active) {
   background-color: #111;
 }
 
 .active {
   background-color: grey;
 }
-a:link {
+.menu:link {
   background-color: #4CAF50;
   color: white;
-  padding: 14px 25px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
-a:hover, a:active {
+.menu:hover, .menu:active {
+  background-color: grey;
+}
+.button{
   background-color: black;
+  padding: 35px 50px;
+  font-size: 20px;
+  border: 5px;
+  border-style: outset;
+}
+.button:hover{
+  border: 5px solid grey;
+}
+#knoppen_midden{
+  width: 98%;
+  text-align: center;
+  border-radius: 2%;
+}
+.introductie{
+  color: black;
+  width: 98%;
+  background-color: white;
+  text-align: center;
+  padding:10px;
+  border: 2px solid black;
+}
+
+.contact{
+  color: white;
+  width: 98%;
+  background-color: grey;
+  text-align: inherit;
+  padding:10px;
+  padding-bottom: 0px;
+}
+div.gallery img {
+  width: 60%;
+  height: auto;
+}
+
+div.desc {
+  padding: 0px;
+  text-align: center;
 }
