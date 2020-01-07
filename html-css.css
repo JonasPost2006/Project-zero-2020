@@ -95,3 +95,7 @@ div.desc {
   padding: 0px;
   text-align: center;
 }
+
+.gcse-searchbox, .gcse-searchresults {
+  width: 1em;
+}
