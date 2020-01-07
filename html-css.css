@@ -34,14 +34,14 @@ li a {
   text-decoration: none;
 }
 
-li .menu:hover:not(.active) {
+li #menu:hover:not(.active) {
   background-color: #111;
 }
 
 .active {
   background-color: grey;
 }
-.menu:link {
+#menu:link {
   background-color: #4CAF50;
   color: white;
   text-align: center;
@@ -51,7 +51,7 @@ li .menu:hover:not(.active) {
   margin-right: 2%;
 }
 
-.menu:hover, .menu:active {
+#menu:hover, .menu:active {
   background-color: grey;
 }
 .button{
@@ -96,7 +96,6 @@ div.desc {
   text-align: center;
 }
 
-/*.gcse-searchbox, .gcse-searchresults {
-  width: 1em;
+.gcse-searchbox, .gcse-searchresults {
+  width: 10px;
 }
-*/
