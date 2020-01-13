@@ -101,7 +101,17 @@ div.desc {
 }
 
 #logo{
-  width: 5%;
+  width: 80px;
+  height: 45px;
+}
+.hele-balk{
+  justify-content: flex-end;
+}
+.balk{
+  width: 50%;
+  height: 45px;
+  border-radius: 15px;
+  border: 1px solid black;
 }
 
 .maps{
