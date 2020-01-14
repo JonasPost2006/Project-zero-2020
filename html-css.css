@@ -1,8 +1,8 @@
 #rennen_plaatje{
-  width: 40%;
-  padding-left: 30%
+  width: 50%;
+  padding-left: 25%
 }
-a{
+a.button{
   color: white;
 }
 h1{
@@ -144,4 +144,24 @@ div.desc {
 #maps{
   border: 10px;
   padding: 10px;
+}
+div.relative {
+  position: relative;
+  width: 100%;
+  height: auto;
+  border: 3px solid #d3d3d3;
+}
+a{
+  color: white;
+}
+div.absolute {
+  position: absolute;
+  font-size: 15px;
+  top: 60%;
+  right: 57%;
+  width: 10%;
+  height: 5%;
+  background-color: black;
+  border: 3px solid #d3d3d3;
+  border-style: outset;
 }
