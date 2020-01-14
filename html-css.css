@@ -14,7 +14,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: rgb(153, 140, 140);
+  background-color: #31d449;
 }
 
 li {
@@ -58,10 +58,10 @@ li #menu:hover:not(.active) {
     margin:5px;
 }
 .active {
-  background-color: grey;
+  background-color: #438a3d;
 }
 #menu:link {
-  background-color: #4CAF50;
+  background-color: grey;
   color: white;
   text-align: center;
   text-decoration: none;
@@ -164,4 +164,21 @@ div.absolute {
   background-color: black;
   border: 3px solid #d3d3d3;
   border-style: outset;
+}
+.informatie{
+  margin-top: 3%;
+  border: 2px solid black;
+  border-right: 1px solid grey;
+  background-color: grey;
+  width: 75%;
+}
+.plaatje2{
+  width: 18%;
+  float: right;
+}
+.old{
+  overflow: hidden;
+}
+#left{
+  float: right;
 }
