@@ -20,6 +20,7 @@ ul {
 li {
   float: left;
   border-right:1px solid #bbb;
+  width: 9%;
 }
 
 li:last-child {
@@ -30,14 +31,32 @@ li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 15% 15%;
   text-decoration: none;
 }
 
 li #menu:hover:not(.active) {
   background-color: #111;
 }
+.heel-menu {
+    height:38px;
+    color:#FFF;
+    width:100%;
+    background:#000;
+}
+.heel-menu > ul > li {
+    display:table-cell;
 
+    white-space:nowrap;
+    vertical-align:top;
+}
+.heel-menu > ul > li:last-child {
+    width:45%;
+}
+.heel-menu > ul > li:last-child input {
+    float:right;
+    margin:5px;
+}
 .active {
   background-color: grey;
 }
@@ -50,7 +69,9 @@ li #menu:hover:not(.active) {
   margin-left: 2%;
   margin-right: 2%;
 }
-
+body{
+  background-color: #d3d3d3;
+}
 #menu:hover, .menu:active {
   background-color: grey;
 }
@@ -101,15 +122,17 @@ div.desc {
 }
 
 #logo{
-  width: 80px;
-  height: 45px;
+  width: 83%;
+  height: auto;
 }
-.hele-balk{
-  justify-content: flex-end;
-}
+
 .balk{
   width: 50%;
   height: 45px;
   border-radius: 15px;
   border: 1px solid black;
+}
+#menu{
+  width: 70%;
+  height: 100%
 }
