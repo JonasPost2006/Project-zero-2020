@@ -223,7 +223,7 @@ div.absolute:hover{
   width: 50%;
 }
 .nieuws_text{
-  font-size:10px;
+  font-size:17px;
 }
 .nieuws_kopje{
   font-size: 20px;
@@ -254,9 +254,11 @@ th.tekst_in_kopje{
 p.informatie-stukje{
   margin-top: 3%;
   border: 2px solid black;
-  border-right: 1px solid red;
-  background-color: red;
+  border-right: 1px solid white;
+  background-color: white;
   width: 75%;
+  font-size: 20px;
+
 }
 .plaatje2{
   width: 100%;
