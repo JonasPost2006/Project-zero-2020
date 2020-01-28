@@ -87,7 +87,7 @@ body{
   margin-bottom: 20px;
 }
 footer{
-  margin-top: 10%;
+    margin-top: 10%;
 }
 
 .button-links:hover, .button:hover, .button-rechts:hover{
@@ -98,7 +98,7 @@ footer{
   text-align: center;
   border-radius: 2%;
   margin-top: 10%;
-  
+
 }
 .introductie{
   color: black;
@@ -216,4 +216,25 @@ div.absolute:hover{
 #tekst{
   margin-left: 15%;
   margin-right: 15%;
+}
+
+.contact{
+  text-align: center;
+}
+
+#gras{
+  height: 200px;
+  width: 100%;
+}
+
+p.informatie-stukje{
+  margin-top: 3%;
+  border: 2px solid black;
+  border-right: 1px solid red;
+  background-color: red;
+  width: 75%;
+}
+.plaatje2{
+  width: 100%;
+  float: right;
 }
