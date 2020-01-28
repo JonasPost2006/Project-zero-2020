@@ -86,9 +86,10 @@ body{
   width: 140px;
   margin-bottom: 20px;
 }
-footer{
-  margin-top: 10%;
+p.contact{
+  margin-top: -8px;
   margin-bottom: -10%;
+  background-color: green;
 }
 
 .button-links:hover, .button:hover, .button-rechts:hover{
