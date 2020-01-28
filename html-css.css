@@ -87,6 +87,7 @@ body{
 }
 footer{
   margin-top: 10%;
+  margin-bottom: -10%;
 }
 
 .button-links:hover, .button:hover, .button-rechts:hover{
@@ -139,6 +140,12 @@ table {
   border: 1px solid black;
   margin-top: 50px;
   background-color: grey;
+}
+table.nieuws {
+  border-collapse: collapse;
+  border: 1px solid black;
+  margin-top: 0px;
+  background-color: white;
 }
 .balk{
   width: 50%;
@@ -209,4 +216,26 @@ div.absolute:hover{
 }
 .tekst-in-kopje{
   width: 70%
+}
+.plaatje3{
+  width: 50%;
+}
+.nieuws_text{
+  font-size:10px;
+}
+.nieuws_kopje{
+  font-size: 20px;
+  margin-right: 100%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+p.nieuws{
+  margin-top: 3%;
+  border: 2px solid black;
+  border-right: 1px solid grey;
+  background-color: white;
+  width: 75%;
+}
+th.tekst_in_kopje{
+  background-color: white;
 }
