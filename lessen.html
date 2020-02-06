@@ -27,28 +27,43 @@
       <tr>
         <div class="informatie">
             <th class="tekst-in-kopje" ><h1 class="kopje" >Lessen</h1>
-            <p  >Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p></th>
+            <p>U kunt de lessen downloaden door op de knoppen te klikken. U kunt lessen uploaden door ze naar dit e-mail adres te sturen: n.nibbeling@hva.nl.
             <th><img id="left" class="plaatje2" src="rennen-plaatje2.jpg"></th>
           <span class="icon icon-book"></span>
         </div>
       </tr>
     </table>
     <div id="knoppen_midden" >
-      <a class="button" href="lessen.pdf" target="_blank">AK</a>
-      <a class="button" href="lessen.pdf" target="_blank">NL</a>
-      <a class="button" href="lessen.pdf" target="_blank">WI</a>
+      <a onclick="on()" class="button" target="_blank">AK</a>
+      <a onclick="on()" class="button" target="_blank">NL</a>
+      <a onclick="on()" class="button" target="_blank">WI</a>
     </div>
     <div id="knoppen_midden" >
-      <a class="button" href="lessen.pdf" target="_blank">EN</a>
-      <a class="button" href="lessen.pdf" target="_blank">BIO</a>
-      <a class="button" href="lessen.pdf" target="_blank">GS</a>
+      <a onclick="on()" class="button" target="_blank">EN</a>
+      <a onclick="on()" class="button" target="_blank">BI</a>
+      <a onclick="on()" class="button" target="_blank">GS</a>
     </div>
     <div id="knoppen_midden" >
-      <a class="button" href="lessen.pdf" target="_blank">KUVB</a>
-      <a class="button" href="lessen.pdf" target="_blank">DU</a>
-      <a class="button" href="lessen.pdf" target="_blank">IN</a>
+      <a onclick="on()" class="button"  target="_blank">BV</a>
+      <a onclick="on()" class="button" target="_blank">DU</a>
+      <a onclick="on()" class="button" target="_blank">IN</a>
     </div>
+    <div id="overlay" onclick="off()"><a id="lessenlinkjes" href="lessen.pdf" target="_blank">Les 1<br>Les 2<br>Les 3<br>Les 4<br>Les 5 <a href="lessen.pdf"></a></div>
+
+    <div style="padding:20px">
+    </div>
+    <script>
+    function on() {
+      document.getElementById("overlay").style.display = "block";
+    }
+
+    function off() {
+      document.getElementById("overlay").style.display = "none";
+    }
+    </script>
+
     <img id="gras" src="file.png" alt="">
+
     <p class="contact">
       Workout4Schools is een project opgericht door de gemeente Amsterdam.
     </p>
