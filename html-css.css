@@ -35,7 +35,7 @@ li a {
   text-decoration: none;
 }
 
-li #menu:hover:not(.active) {
+li .menu:hover:not(.active) {
   background-color: #111;
 }
 .heel-menu {
@@ -60,7 +60,7 @@ li #menu:hover:not(.active) {
 .active {
   background-color: #438a3d;
 }
-#menu:link {
+.menu:link {
   background-color: grey;
   color: white;
   text-align: center;
@@ -73,7 +73,7 @@ body{
   background-color: #d3d3d3;
   font-size: 20px
 }
-#menu:hover, .menu:active {
+.menu:hover, .menu:active {
   background-color: grey;
 }
 .button{
@@ -89,13 +89,13 @@ body{
 p.contact{
   margin-top: -8px;
   margin-bottom: -10%;
-  background-color: green;
+  background-color: 	#228b22;
 }
 
 .button-links:hover, .button:hover, .button-rechts:hover{
   border-style: inset;
 }
-#knoppen_midden{
+.knoppen_midden{
   width: 100%;
   text-align: center;
   border-radius: 2%;
@@ -156,7 +156,7 @@ table.nieuws {
   border-radius: 15px;
   border: 1px solid black;
 }
-#menu{
+.menu{
   width: 70%;
   height: 100%
 }
@@ -262,4 +262,7 @@ p.informatie-stukje{
 .plaatje2{
   width: 100%;
   float: right;
+}
+.informatie-stukje{
+  border: 2px solid black;
 }
